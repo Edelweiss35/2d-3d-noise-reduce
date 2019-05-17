@@ -1,6 +1,5 @@
 import cv2
 
-
 def video_write_remove_noise(videofile):
 
 	#cap = cv2.VideoCapture(0)  webcam
