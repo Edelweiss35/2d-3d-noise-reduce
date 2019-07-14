@@ -2,7 +2,6 @@ import cv2
 
 def video_write_remove_noise(videofile):
 
-	#cap = cv2.VideoCapture(0)  webcam
 	cap = cv2.VideoCapture(videofile)
 	if(not cap.isOpened()):
 		print("file is not exists")
